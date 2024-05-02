@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('olive');
   return (
     <>
       {/* // i have to change the background theme by clicking multiple button design UI using tailwind */}
@@ -38,6 +38,6 @@ function App() {
       </div>
     </>
   )
-}
+}     
 
 export default App
