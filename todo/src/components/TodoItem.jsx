@@ -9,7 +9,7 @@ function TodoItem({ todo }) {
     const toggleCompleted = () => {
         toggleTodo(todo.id);
     };
-
+ 
     const editTodo = () => {
       
         updateTodo({ ...todo, todo : todoMsg  },todo.id);
