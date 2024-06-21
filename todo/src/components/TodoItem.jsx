@@ -11,7 +11,7 @@ function TodoItem({ todo }) {
     };
  
     const editTodo = () => {
-      
+    //   adding comments for testing
         updateTodo({ ...todo, todo : todoMsg  },todo.id);
         setIsTodoEditable(false);
     };
