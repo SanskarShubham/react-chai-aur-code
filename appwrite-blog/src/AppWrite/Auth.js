@@ -43,7 +43,7 @@ class AuthService {
     }
     async logout(){
         try {
-            return await this.account.deleteSession("current")
+            return await this.account.deleteSessions()
         } catch (error) {
 
         }
